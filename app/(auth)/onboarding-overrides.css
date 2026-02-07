@@ -1,0 +1,54 @@
+.success-section {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.customize-section {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.form-feedback {
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.form-feedback.error {
+  color: #dc2626;
+}
+
+.form-feedback.success {
+  color: #16a34a;
+}
+
+.signin-btn[disabled],
+.create-account-btn[disabled],
+.send-otp-btn[disabled],
+.verify-btn[disabled],
+.verify-password-btn[disabled],
+.google-btn[disabled],
+.login-btn[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button.forgot-password,
+button.resend-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
