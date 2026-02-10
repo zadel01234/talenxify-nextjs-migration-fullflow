@@ -388,8 +388,7 @@ export default function DashboardPage() {
 
   const handleCompleteProfile = () => {
     // TODO: Navigate to profile page
-    // router.push('/profile');
-    alert('Navigating to profile page...');
+    router.push('/dashboard/manual-fill');
   };
 
   const handleViewDetails = (applicationId) => {

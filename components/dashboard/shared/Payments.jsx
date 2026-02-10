@@ -391,7 +391,7 @@ const Payments = () => {
                     />
 
                     {/* Total Earnings Card */}
-                    <div className="bg-white border border-gray-200 rounded-2xl p-5">
+                    <div className="bg-white border border-gray-200 rounded-2xl p-5 ">
                         <p className="text-xs font-medium text-gray-500 mb-1">Total Earnings</p>
                         <p className="text-2xl sm:text-3xl font-bold text-gray-900">₦{walletData.totalEarnings}</p>
                     </div>

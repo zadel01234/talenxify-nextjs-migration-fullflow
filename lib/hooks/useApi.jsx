@@ -24,7 +24,7 @@ export function useUser() {
     return useQuery({
         queryKey: queryKeys.user,
         queryFn: userApi.getUser,
-        staleTime: 5 * 60 * 1000, // 5 minutes
+        staleTime: 1 * 60 * 1000, // 1 minute
     });
 }
 
@@ -54,7 +54,7 @@ export function useApplicationStats() {
     return useQuery({
         queryKey: queryKeys.stats,
         queryFn: applicationsApi.getStats,
-        staleTime: 2 * 60 * 1000, // 2 minutes
+        staleTime: 1 * 60 * 1000, // 1 minutes
     });
 }
 
@@ -62,7 +62,7 @@ export function useApplications() {
     return useQuery({
         queryKey: queryKeys.applications,
         queryFn: applicationsApi.getApplications,
-        staleTime: 2 * 60 * 1000, // 2 minutes
+        staleTime: 1 * 60 * 1000, // 1 minutes
     });
 }
 
@@ -79,6 +79,6 @@ export function useProfileCompletion() {
     return useQuery({
         queryKey: queryKeys.profileCompletion,
         queryFn: profileApi.getProfileCompletion,
-        staleTime: 5 * 60 * 1000, // 5 minutes
+        staleTime: 2 * 60 * 1000, // 2 minutes
     });
 }

@@ -106,7 +106,7 @@ export function useJobs() {
     });
 }
 
-// GET user's own job postings (GET /job-postings/my-postings/)
+// GET recuiter's own job postings (GET /job-postings/my-postings/)
 export function useMyJobPostings() {
     return useQuery({
         queryKey: [...jobKeys.all, 'my-postings'],
